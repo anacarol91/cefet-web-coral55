@@ -1,2 +1,99 @@
 /* Importa o arquivo CSS que importa a fonte Ravie */
 @import "fonts/ravie.css";
+
+@font-face { 
+	font-family: "Ravie"; 
+	src: url('fonts/RAVIE.ttf'); 
+}
+
+html, body, main {
+	height: 100%;
+}
+
+body {
+	font-family: "Verdana";
+	color: #333;
+	font-size: 14px;
+}
+
+h1 {
+	font-family: "Ravie";
+	font-size: 36px;
+    color: #e90c0c;
+    text-align: right;
+}
+
+h2{
+    font-size: 24px;
+    font-family: "Trebuchet MS";
+    font-weight: normal;
+    text-align: right;
+}
+
+h3 {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+main {
+	width: 800px;
+    margin: 0 auto;
+    border: 1px solid #d3d3d3;
+    position: relative;
+}
+
+#lateral h2 {
+	font-size: 48px;
+    transform: rotate(-90deg);
+    font-weight: bold;
+}
+
+#lateral {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 154px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+
+#cardapio {
+    width: 646px;
+    float: right;
+    border: 1px solid #aac0ae;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    position: absolute;
+    left: 154px;
+}
+
+#rodape {
+	position: absolute;
+    bottom: 25px;
+    right: 15px;
+}
+
+#ticket {
+	position: fixed;
+    left: -69px;
+    top: 295px;
+    transition: left 100ms ease-out;
+}
+
+#element:hover {
+  left: 0;
+}
+
+.siri {
+	align-self: flex-start;
+    top: 17px;
+    margin-left: -10px;
+}
+
+.peixe {
+	align-self: flex-start;
+    bottom: 0;
+    margin-left: -44px;
+}
