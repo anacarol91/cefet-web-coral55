@@ -82,7 +82,7 @@ main {
     transition: left 100ms ease-out;
 }
 
-#element:hover {
+#ticket:hover {
   left: 0;
 }
 
