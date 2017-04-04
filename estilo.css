@@ -40,6 +40,7 @@ main {
     margin: 0 auto;
     border: 1px solid #d3d3d3;
     position: relative;
+	background-image: linear-gradient(to bottom, #f6fdb1, #4599b2);
 }
 
 #lateral h2 {
