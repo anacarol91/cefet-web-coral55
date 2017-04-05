@@ -14,6 +14,9 @@ body {
 	font-family: "Verdana";
 	color: #333;
 	font-size: 14px;
+    min-height: 721px;
+    /*max-height: 721px;*/
+    margin: 0; 
 }
 
 h1 {
@@ -21,11 +24,13 @@ h1 {
 	font-size: 36px;
     color: #e90c0c;
     text-align: right;
+    margin-bottom: 0;
+    padding-right: 13px;
+    font-weight: normal;
 }
 
 h2{
     font-size: 24px;
-    font-family: "Trebuchet MS";
     font-weight: normal;
     text-align: right;
 }
@@ -33,6 +38,7 @@ h2{
 h3 {
 	font-size: 18px;
 	font-weight: bold;
+    margin-bottom: 0;
 }
 
 main {
@@ -40,6 +46,7 @@ main {
     margin: 0 auto;
     border: 1px solid #d3d3d3;
     position: relative;
+    box-sizing: content-box;
 	background-image: linear-gradient(to bottom, #f6fdb1, #4599b2);
 }
 
@@ -47,6 +54,8 @@ main {
 	font-size: 48px;
     transform: rotate(-90deg);
     font-weight: bold;
+    position: relative;
+    margin-bottom: 180px;
 }
 
 #lateral {
@@ -64,7 +73,7 @@ main {
     width: 646px;
     float: right;
     border: 1px solid #aac0ae;
-    padding: 10px 20px;
+    padding: 0 20px;
     box-sizing: border-box;
     position: absolute;
     left: 154px;
@@ -98,4 +107,34 @@ main {
 	align-self: flex-start;
     bottom: 0;
     margin-left: -44px;
+}
+
+.bolha {
+    position: absolute;
+    bottom: 125px;
+    right: 20px;
+}
+
+header {
+    padding-right: 80px;
+}
+
+header span {
+    color: #d027aa;
+}
+
+header h2 {
+    margin: 0;        
+    font-family: "Trebuchet MS";
+}
+
+article p {
+    white-space: pre-line;
+    line-height: 2;
+    margin-top: -20px;
+    margin-bottom: 30px;
+}
+
+article span {
+    float: right;
 }
